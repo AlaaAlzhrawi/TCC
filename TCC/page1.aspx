@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebForm2.aspx.cs" Inherits="TCC.WebForm2" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="page1.aspx.cs" Inherits="TCC.WebForm1" %>
 
 <!DOCTYPE html>
 
@@ -11,7 +11,8 @@
     <div>
     
         <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
-        <asp:CheckBox ID="CheckBox1" runat="server" />
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
     
     </div>
     </form>
