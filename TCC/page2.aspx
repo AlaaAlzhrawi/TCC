@@ -10,10 +10,16 @@
     <form id="form1" runat="server">
     <div>
     
-        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
-        <asp:CheckBox ID="CheckBox1" runat="server" />
+        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Yor Name" />
+        <asp:Label ID="Label1" runat="server" Text="is:"></asp:Label>
     
     </div>
+        <p>
+        <asp:CheckBox ID="CheckBox1" runat="server" />
+    
+        </p>
+        <p>
+            &nbsp;</p>
     </form>
 </body>
 </html>
